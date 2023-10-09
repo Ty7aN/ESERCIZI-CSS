@@ -2,19 +2,15 @@ body {
   width: 15em;
   margin: 0 auto;
   margin-left: 0px;
+  display:flex;
 }
 
 section {
   padding: 2em;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
   align-content: center;
-}
-
-list {
-  
+  flex-wrap: wrap;
 }
 
 #green {
