@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .navbar .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .search input {
+    width: 150px;
+    margin-right: 10px;
+  }
+  
+  .navbar .search button {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .navbar .search button:hover {
+    background: #008000;
+    color: #fff;
+  }
