@@ -3,6 +3,8 @@ body {
   margin: 0 auto;
   margin-left: 0px;
   display:flex;
+  flex-grow: 1;
+  gap: 2em;
 }
 
 section {
