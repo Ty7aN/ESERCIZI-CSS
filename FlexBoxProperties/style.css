@@ -36,14 +36,12 @@ section {
 }
 
 ul {
-  flex: 1;
-  max-width: 10em;
   padding: 0;
+  list-style-type: none;
 }
 
 li {
   background-color: white;
   padding: 1em;
-  display: block;
   margin: 1em;
 }
