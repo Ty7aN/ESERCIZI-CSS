@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+/* CONTAINER */
+.calculator {
+  align-items: center;
+  border: 1px solid rgb(0, 0, 0);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-end-start-radius: 10px;
+  border-end-end-radius: 10px;
+}
+
+/* SCHERMO */
+.calc-screen {
+  color: #fff;
+  background-color: #3f3b3b;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-size: 24px;
+  text-align: end;
+  line-height: 50px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+/* TASTIERINO */
+.calc-numbers {
+  display: grid;
+  grid-template-columns: Repeat(4, 1fr);
+}
+
+/* TASTI OPERAZIONE */
+.calc-operation {
+  font-weight: bold;
+  background-color: lightgray;
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #222;
+}
+
+/* TASTI NUMERO, PUNTO e CLEAR */
+.calc-button {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #222;
+}
+
+.calc-button0 {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #222;
+  border-end-start-radius: 10px;
+}
+
+/* TASTO UGUALE */
+.calc-equal {
+  font-weight: bold;
+  background-color: #ff0000;
+  border: 1px solid black;
+  font-size: 24px;
+  text-align: center;
+  line-height: 200px;
+  grid-column: 4;
+  grid-row: 2 / 6;
+  border-end-end-radius: 10px;
+}
