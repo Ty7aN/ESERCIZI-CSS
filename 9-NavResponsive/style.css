@@ -10,7 +10,8 @@ body {
   justify-content: space-between;
 }
 
-.navbar a, .navbar span {
+.navbar a,
+.navbar span {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -19,7 +20,8 @@ body {
   text-decoration: none;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
   background-color: #ddd;
   color: black;
 }
@@ -30,7 +32,7 @@ body {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 16px;
   border: none;
   outline: none;
   color: white;
@@ -54,51 +56,59 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 .navbar .search-container {
-    float:right; 
-    display:flex; 
-    align-items:center; 
+  float: right;
+  display: flex;
+  align-items: center;
 }
 
-.navbar input[type=text] {
-    padding:5px;
-    font-size:15px; 
-    border:none; 
-    border-radius: 5px;
-    flex-grow:1; 
+.navbar input[type="text"] {
+  padding: 5px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  flex-grow: 1;
 }
 
 .navbar .search-container button {
-    padding:5px; 
-    margin-right:10px; 
-    background-color:#4CAF50;
-    color:white; 
-    font-size:15px; 
-    border:none; 
-    border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbar .search-container button:hover {
+  background-color: green;
+  color: white;
 }
 
 .hamburger-menu {
-    display:none; 
+  display: none;
+  cursor: pointer;
 }
 
-@media screen and (max-width:768px) {
-    .navbar a, .navbar span, .navbar .search-container, .dropdown, .dropdown-content {
-        display:none; 
-    }
-    
-    .hamburger-menu {
-        display:block; 
-        color:#f2f2f2; 
-        text-align:center; 
-        padding-left:16px; 
-        font-size:x-large; 
-    }
+@media screen and (max-width: 768px) {
+  .navbar a,
+  .navbar span,
+  .navbar .search-container,
+  .dropdown,
+  .dropdown-content {
+    display: none;
+  }
+
+  .navbar span.hamburger-menu {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 16px;
+    font-size: x-large;
+  }
 }
